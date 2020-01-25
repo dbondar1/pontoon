@@ -6,7 +6,7 @@ export PYTHON_3_VERSION := 3.7.5
 # *IMPORTANT*
 # Don't use this instance in a production setting. More info at:
 # https://docs.djangoproject.com/en/dev/ref/django-admin/#runserver
-SITE_URL ?= http://localhost:8000
+SITE_URL ?= http://pontoontestv2.herokuapp.com:8000
 
 .PHONY: build build-py3 setup run clean test test-py3 shell shell-py3 loaddb build-frontend build-frontend-w
 
