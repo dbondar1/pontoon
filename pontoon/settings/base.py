@@ -531,7 +531,7 @@ def _allowed_hosts():
     return [host]
 
 
-ALLOWED_HOSTS = lazy(_allowed_hosts, list)()
+ALLOWED_HOSTS =['.herokuapp.com']
 
 # Auth
 # The first hasher in this list will be used for new passwords.
